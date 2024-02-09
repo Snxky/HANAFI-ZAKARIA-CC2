@@ -1,0 +1,18 @@
+.Div1 {
+    width: 280px;
+    height: 280px;
+    background-color: blue;
+    transform: translate(300px, 300px) rotate(35deg);
+  }
+
+  @media (max-width: 670px) {
+    .Div1 {
+      background-color: red;
+    }
+  }
+
+  @media (min-width: 671px) and (max-width: 1150px) {
+    .Div1 {
+      background-color: green;
+    }
+  }
