@@ -21,3 +21,57 @@ article h2 + p {
 .img{
    border-radius:40px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+*{
+    text-decoration: none;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode',
+     'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.navdiv {
+    height: 80px;
+    background: red;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    padding: 0rem calc((100vw - 1300px)/2);
+}
+
+.logo {
+    color:#000;
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-style: italic;
+    padding: 0 2rem;
+}
+
+.list{
+    color: black;
+    
+}
+
+.navdiv {
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
